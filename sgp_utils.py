@@ -10,6 +10,7 @@ from sqlalchemy import create_engine
 import psycopg2
 import time
 
+__version__ = '0.1'
 
 def internal_task (gdf, tb, ruta, srid, geomtype, some_id):
     ##quita la gemetría del geodataframe
